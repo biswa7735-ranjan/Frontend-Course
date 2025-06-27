@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WD Road map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="h">
+        <h1>WEB DEVELOPMENT COURSE</h1>
+    </div>
+    <ol>
+        <h2>
+            <li>FRONTEND</li>
+        </h2>
+        <h2>
+            <li>BACKEND</li>
+        </h2>
+        <h2>
+            <li>DATABASE</li>
+        </h2>
+    </ol>
+    <h3>FRONTEND</h3>
+    <ul>
+        <h3>
+            <li><b>HTML</b></li>
+        </h3>
+        <h3>
+            <li><b>CSS</b></li>
+        </h3>
+        <h3>
+            <h3>
+                <li><b>BOOTSTRAP</b></li>
+            </h3>
+            <h3>
+                <li><b>JAVA SCRIPT</b></li>
+            </h3>
+            <h3>
+                <li><b>REACT</b></li>
+            </h3>
+            <h3>
+                <li><b>GIT & GITHUB</b></li>
+            </h3>
+    </ul>
+    <ol>
+        <b>What is HTML?</b> HTML Stands for Hyper Text Markup Language.Its standard markup laguage used to create web pages and display content on the internet.
+        <br> HTML is the backbone of a website,providing the stucture and content that the web browser renders to the user.Its made up of a series of elements,represented by TAGs(&lt;&gt;),which wrap around content to define its purpose and display properties.
+        <p>HTML is used to:</p>
+        <li>Define headings, paragraphs,and other text elements</li>
+        <li>Create links to other web pages or email addresses</li>
+        <li>Add images, videos, and audio files</li>
+        <li>Build tables, lists, and other data structures</li>
+        <li>Create forms for user input</li>
+        <li>Apply basic styling and layout control</li>
+        <p>HTML is a crucial skill for web development, and is often used in conjuction with other technologies like CSS (Cascading Style Sheet) and JavaSript to create dynamic and interactive web pages.</p>
+        <p>Some common HTML tags include:</p>
+        <ul>
+            <li>&lt;h&gt; Heading h1-h6</li>
+            <li>&lt;p&gt; Paragraph</li>
+            <li>&lt;a&gt; Anchor (link)</li>
+            <li>&lt;img&gt; Image</li>
+            <li>&lt;br&gt; Line break</li>
+            <li>&lt;hr&gt; Horizontal Rule</li>
+        </ul>
+        <b>Here's a quick summary of each element:</b>
+        <ol>
+            <li>- Headings (h1-h6): Define the title or heading of a section or page</li>
+            <li>- Paragraphs (p): Define a paragraph of text</li>
+            <li>- Links (a): Create a hyperlink to another web page or email address</li>
+            <li>- Images (img): Add an image to a web page</li>
+            <li>- Line Breaks (br): Create a line break in a paragraph of text</li>
+            <li>- Horizontal Rule (hr): Create a horizontal line to separate content</li>
+        </ol>
+        <p>HTML is an essential building block of the web, and is used by web browsers to render web pages and display content to users.</p>
+    </ol>
+    <h4>Basic HTML Page</h4>
+    ... &lt;!DOCTYPE html&gt;
+    <br>
+    <br>&lt;html&gt;
+    <br>
+    <br>&lt;head&gt;
+    <br>
+    <br>&lt;title&gt;My web page&lt;/title&gt;
+    <br>
+    <br>&lt;/head&gt;
+    <br>
+    <br>&lt;body&gt;
+    <br>
+    <br>&lt;!--Your content goes here--&gt;
+    <br>
+    <br>&lt;/body&gt;
+    <br>
+    <br>&lt;/html&gt; ...
+    <ul>
+        <li>Html tag is parent of head and body tag.</li>
+        <li>Most of HTML elements have opneing and closing tags with content in between.</li>
+        <li>Some tag have no closing tag or no content in between ,eg- &lt;br&gt;</li>
+        <li>we can use inspect element /view page sourse to edit html pages.</li>
+        <li>Comment in HTML</li>
+        This is part of code that should not be parsed. &lt;!--This is an HTMl comment--&gt;
+        <li>Html is not case sensitive</li>
+        &lt;html&gt; = &lt;HTML&gt;
+        <br>&lt;head&gt; = &lt;HEAD&gt;
+        <br>&lt;body&gt; = &lt;BODY&gt;
+        <br>&lt;p&gt; = &lt;P&gt;
+    </ul>
+    <p><b>Element that can be used inside the &lt;head&gt; tag:</b></p>
+    <ul>
+        <li>&lt;title&gt;</li>
+        <li>&lt;Base&gt;</li>
+        <li>&lt;Link&gt;</li>
+        <li>&lt;Style&gt;</li>
+        <li>&lt;Meta&gt;</li>
+        <li>&lt;Script&gt;</li>
+        <li>&lt;Noscript&gt;</li>
+        <li>&lt;Template&gt;</li>
+    </ul>
+    <p><b>Page layout technique</b></p>
+    <ul>
+        <li>&lt;header&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;footer&gt;</li>
+    </ul>
+    <p><b>Inside main tag</b></p>
+    <ul>
+        <li>Section Tag</li>
+        <li>Article Tag</li>
+        <li>Aside Tag</li>
+    </ul>
+    <ol>
+        <h4>
+            <li>Ordered Lists (ol)</li>
+        </h4>
+        <h4>
+            <li>Unordered Lists (ul)</li>
+        </h4>
+    </ol>
+
+    <p>Ordered Lists are used to present a list of items in a specific order, such as a list of instructions. <br> Unordered Lists are used to present a list of items without a specific order, such as a list of groceries or a list of links.</p>
+
+    <b>Here are the key points about HTML Lists:</b>
+    <ul>
+        <li>- Ordered Lists use the &lt;ol&gt; element and list items use the &lt;li&gt; element</li>
+        <li>- Unordered Lists use the &lt;ul&gt; element and list items use the &lt;li&gt; element</li>
+        <li>- List items can contain text, images, and other HTML elements</li>
+        <li>- Lists can be nested inside each other</li>
+    </ul>
+
+    <b>Example of an Ordered List:</b>
+
+    <br>&lt;ol&gt;
+    <br> &lt;li&gt;Item 1&lt;/li&gt;
+    <br>&lt; li&gt;Item 2&lt;/li&gt;
+    <br>&lt;li&gt;Item 3&lt;/li&gt;
+    <br>&lt;/ol&gt;
+
+    <br><b>Example of an Unordered List:</b>
+
+    <br>&lt;ul&gt;
+    <br>&lt;li&gt;Item 1&lt;/li&gt;
+    <br>&lt;li&gt;Item 2&lt;/li&gt;
+    <br> &lt;li&gt;Item 3&lt;/li&gt;
+    <br>&lt;/ul&gt;
+    <ol>
+        <h3>
+            <li>Table Tag or Format</li>
+        </h3>
+    </ol>
+    <p><b>HTML Tables are used to present data in a tabular format, with rows and columns. Here are the key points about HTML Tables:</b>
+    </p>
+    <ol>
+        <li>- The &lt;table&gt; element defines a table </li>
+        <li> - The &lt;tr&gt;element defines a table row</li>
+        <li>- The &lt;td&gt; element defines a table data cell</li>
+        <li>- The &lt;th&gt; element defines a table header cell</li>
+        <li>- Tables can have captions, headers, and footers</li>
+        <li>- Tables can be styled with borders, padding, and alignment </li>
+    </ol>
+    <p><b>Example of a simple HTML Table:</b></p>
+    <br>&lt;table&gt;
+    <br><br> &lt;tr&gt;
+    <br> &lt;th&gt;Name&lt;/th&gt;
+    <br> &lt;th&gt;Age&lt;/th&gt;
+    <br> &lt;/tr&gt;
+    <br><br>&lt;tr&gt;
+    <br> &lt;td&gt;John&lt;/td&gt;
+    <br> &lt;td&gt;25&lt;/td&gt;
+    <br> &lt;/tr&gt;
+    <br><br> &lt;tr&gt;
+    <br> &lt;td&gt;Jane&lt;/td&gt;
+    <br> &lt;td&gt;30&lt;/td&gt;
+    <br> &lt; /tr&gt;
+    <br><br> &lt;/table&gt;
+    <ul>
+        <li>you can try it practically</li>
+    </ul>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+
+    <ol>
+        <h3>
+            <li>Form Tag</li>
+        </h3>
+    </ol>
+    <p><b>HTML Forms are used to collect user input, such as text, checkboxes, radio buttons, and more. Here are the key points about HTML Forms:
+</b></p>
+    <ol>
+        <li> - The &lt;form&gt; element defines a form</li>
+        <br>
+        <li>- Form elements include:</li>
+        <br>
+        <li> - &lt;input&gt; for text, checkboxes, radio buttons, etc.</li>
+        <br>
+        <li> - &lt;textarea&gt; for multi-line text input</li>
+        <br>
+        <li>- &lt;select&gt; for dropdown menus</li>
+        <br>
+        <li>- &lt;button&gt; for submit and reset buttons</li>
+        <br>
+        <li>- Form attributes include:</li>
+        <br>
+        <li>- action specifies the form submission URL</li>
+        <br>
+        <li>- method specifies the submission method (GET or POST)</li>
+        <br>
+        <li>- enctype specifies the encoding type (e.g., multipart/form-data)</li>
+        <br>
+        <li> - Form validation can be performed using HTML, JavaScript, or server-side scripting
+
+        </li>
+    </ol>
+    <p><b>Example of a simple HTML Form:
+</b></p>
+    <br>&lt;form action="submit-form" method="POST"&gt;
+    <br> &lt;label for="name"&gt;Name:&lt;/label&gt;
+    <br><br> &lt;input type="text" id="name" name="name"&gt;
+    <br> &lt;label for="email"&gt;Email:&lt;/label&gt;
+    <br> &lt;input type="email" id="email" name="email"&gt;
+    <br> &lt; input type="submit" value="Submit"&gt;
+    <br> &lt; /form&gt;
+    <ul>
+        <li>You can try it practically</li>
+    </ul>
+    <form action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>
+        <h3>"HTML Semantic Elements".</h3>
+    </p>
+    <p><b>HTML Semantic Elements are elements that provide meaning to the structure of a web page, making it easier for search engines, screen readers, and other tools to understand the content and context of the page. Here are the key points about HTML Semantic Elements:
+
+      </b></p>
+    - Semantic Elements include:
+    <ul>
+        <li>- &lt;header&gt; for header sections</li>
+        <li> - &lt;nav&gt; for navigation menus</li>
+        <li>- &lt;main &gt;for main content areas</li>
+        <li>- &lt;section&gt; for self-contained sections</li>
+        <li>- &lt;article&gt;for independent pieces of content</li>
+        <li>- &lt;aside &gt;for secondary or supporting content</li>
+        <li> - &lt;footer &gt;for footer sections</li>
+        <li>- These elements provide better accessibility and SEO</li>
+        <li> - They help define the structure and organization of a web page</li>
+        <li> - They can be used in place of div elements to add meaning to the HTML structure</li>
+
+    </ul>
+    <b>Example of using HTML Semantic Elements:
+    </b>
+    <br> &lt;header&gt;
+    <br>
+    <br> &lt;nav&gt;
+    <br>
+    <br> &lt;ul&gt;
+    <br>
+    <br> &lt;li&gt;&lt; a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    <br>
+    <br> &lt;li&gt; &lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+    <br>
+    <br> &lt;li&gt; &lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    <br>
+    <br> &lt;/ul&gt;
+    <br>
+    <br> &lt;/nav&gt;
+    <br>
+    <br> &lt;/header&gt;
+    <br>
+    <br> &lt; main&gt;
+    <br>
+    <br> &lt;section&gt;
+    <br>
+    <br> &lt; h2&gt;Welcome to our website!&lt;/h2&gt;
+    <br>
+    <br> &lt;p&gt;his is the main content area.&lt;/p&gt;
+    <br>
+    <br> &lt;/section&gt;
+    <br>
+    <br> &lt;aside&gt;
+    <br>
+    <br> &lt;h3&gt;Related content&lt;/h3&gt;
+    <br>
+    <br> &lt; p&gt;This is secondary content.&lt;/p&gt;
+    <br>
+    <br> &lt;/main&gt;
+    <br>
+    <br> &lt;footer&gt;
+    <br>
+    <br> &lt; p&gt; 2024 Our website&lt;/p&gt;
+    <br>
+    <br> &lt; /footer&gt;
+
+    <b>you can try it practically way</b>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <b>Welcome to our website!</b>
+            <p>This is the main content area.</p>
+        </section>
+        <aside>
+            <b>Related content</b>
+            <p>This is secondary content.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our website</p>
+    </footer>
+    <ol>
+        <b><li>Div Tag- Div is a container used for other html elements  ! block element (it take full width):   <br>  &lt;Div&gt;Tag</li></b>
+        <br>
+        <b><li>Span Tag- Span is also a container used for other html elements ! Line element (it take width as per size):   <br>  &lt;Span&gt;Tag</li></b>
+    </ol>
+    <ul>
+        <li>
+            <h3> For Clickable image</h3>
+        </li>
+        <li><b>&lt;a href="https://google.com"&gt;&lt;img src="image link"&gt;&lt;/a&gt;</b></li>
+    </ul>
+    <b><h4>For lable tag</h4></b>
+    <ol>
+        <b><i>Here:
+
+            - &lt;label&gt; is the opening tag
+            <br>- for="inputID" specifies the ID of the input element
+            <br>
+            <br>- Label Text is the text displayed as the label
+            <br>
+            <br>- &lt;/label&gt; is the closing tag
+            <br>
+            <br>- &lt;input&gt; is the input element
+            
+            </i></b>
+    </ol>
+    <p><b>
+        Example:
+
+<label for="name">Name:</label>
+<input type="text" id="name" />
+<br>
+This code creates a label "Name:" associated with the input field.
+    </b></p>
+    <h4>For Class & Id</h4>
+    <p><b>In HTML, class and id are two attributes used to identify and style HTML elements.
+    </b></p>
+    <ul>
+        <li>Class:
+            <br>
+            <br>- The class attribute assigns a class name to an element.
+            <br> - Multiple elements can share the same class name.
+            <br>- Classes are used to apply styles, layouts, or behaviors to elements.
+            <br>- You can add multiple classes to an element, separated by spaces.
+            <br>Example: <br>&lt;p class="text-center bold"&gt;This text is centered and bold.&lt;/p&gt;
+        </li>
+        <li><br> ID:
+            <br>- The id attribute assigns a unique identifier to an element.
+            <br>- Each element can only have one ID.
+            <br>- IDs are used to target specific elements with CSS or JavaScript.
+            <br>- IDs must be unique within the HTML document.
+            <br>Example: <br>&lt;p id="main-title"&gt;Main Title&lt;/p&gt;
+        </li>
+    </ul>
+    <h4>For Checkboxes</h4>
+    <p><b>In HTML, a checkbox is a type of input element that allows users to select one or more options from a list. The syntax is:
+    </b></p>
+    <ul>
+        <li>&lt;input type="checkbox" id="checkboxID" name="checkboxName" value="checkboxValue"&gt;
+
+            <br>- type="checkbox" specifies the input type as a checkbox
+            <br>- id is a unique identifier for the checkbox
+            <br>- name is the name of the checkbox group
+            <br>- value is the value associated with the checkbox
+
+            <b>You can also add additional attributes, such as:</b>
+
+            <br>- checked to make the checkbox selected by default
+            <br>- disabled to make the checkbox non-selectable
+            <br>- onclick to specify a JavaScript function to call when the checkbox is clicked
+
+        </li>
+        <br>Example:
+
+        <br><input type="checkbox" id="subscribe" name="subscribe" value="yes" checked> Subscribe to our newsletter
+        <br><input type="checkbox" id="subscribe" name="subscribe" value="yes" checked> You can try this box
+    </ul>
+    <h4>For Select Dropdown</h4>
+    <p><b>In HTML, a select drop-down is a type of form element that allows users to select one option from a list. The syntax is:
+
+    </b></p>
+    <ul>
+        <li>
+            &lt;select id="selectID" name="selectName"&gt; <br>&lt;option value="option1"&gt;Option 1&lt;/option&gt;<br> &lt;option value="option2"&gt;Option 2&lt;/option&gt;<br> &lt;option value="option3"&gt;Option 3&lt;/option&gt; <br>&lt;/select&gt;
+
+            <br>- select is the element name
+            <br>- id is a unique identifier for the select element
+            <br>- name is the name of the select element
+            <br>- option is the element for each option in the list
+            <br>- value is the value associated with each option
+            <br>- The text between the option tags is the label displayed in the drop-down
+
+            <br> <b>You can also add additional attributes, such as:</b>
+
+            <br>- multiple to allow multiple selections
+            <br>- disabled to make the select element non-selectable
+            <br>- onchange to specify a JavaScript function to call when the selection changes
+        </li>
+        <br>Example:
+        <br>
+
+        <select id="color" name="color">
+<option value="red">Red</option>
+<option value="blue">Blue</option>
+<option value="green">Green</option>
+</select>
+
+    </ul>
+    <h4><b>For image tag</b></h4>
+    <p><b>It used to add any image to your web page &lt;img  src="image link" alt="image name" height=" " width=" " &gt; height & width set depending on you</b></p>
+    <b>For example:-</b>
+    <br><img src="WhatsApp Image 2025-06-27 at 23.21.19_a98a72f3.jpg" alt="My Name Is Biswa" height="200px" width="170px">
+    <h4><b>For Iframe tag</b></h4>
+    <p><b>The iframe tag is used to embed another HTML document or a web page inside a current HTML document.  <br>The syntax is:
+
+    </b></p>
+    <ul>
+        <li>&lt;iframe src="[URL]" [attributes]&gt;
+
+            <br> - src: specifies the URL of the page to embed
+            <br> - attributes: additional attributes to customize the iframe (e.g., width, height, border, scrolling)
+
+        </li>
+    </ul>
+    <br> Example:
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3K7L2P9p-mE?si=I2ynb3KcW02QnxI9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <br>
+    <b>This code embeds the webpage at the specified URL in an iframe with a width of 500 pixels, a height of 300 pixels, no border, and scrolling enabled.</b>
+    <br>Some common attributes for iframes include:
+
+    <br>- src: specifies the URL of the page to embed
+    <br>- width and height: specify the size of the iframe
+    <br>- frameborder: specifies the border style (0 for no border)
+    <br>- scrolling: specifies whether to enable scrolling (yes or no)
+    <br>- marginwidth and marginheight: specify the margin sizes
+    <br>- align: specifies the alignment (left, right, top, middle, bottom)
+
+    <br>
+    <br>Note: iframes can be used for good (e.g., embedding maps or videos) or evil (e.g., clickjacking or phishing). Always use them responsibly!
+    </ul>
+    <h2>Then Now We are Start Step - 2 (CSS)</h2>
+    <h3>Cascading Style Sheet</h3>
+    <p><b>What is CSS  - It is a language that is use to describe the style of a document</b></p>
+    <ul>
+        <li><b>Basic syntax:- </b></li><br>
+        <b>Example:- h1 {color: red;}</b>
+        <li>h1 = Selector</li>
+        <li>Color = Property</li>
+        <li>Red = Value</li>
+    </ul>
+    <ol>
+        <li>Including style:-</li>
+        * Inline = &lt;h1 style ="color : red"&gt;Biswa &lt;/h1&gt; <br> * &lt;Style&gt;Tag
+        <br>*&lt;Style&gt;
+        <br> h1 {Color : Red;}
+        <br>&lt;/Style&gt;
+
+    </ol>
+    <ul>
+        <li><b>Including style</b></li>
+        <li><b>External Style Sheet</b></li>
+        <b>*Write CSS a separate document & link it with HTML file.</b>
+    </ul>
+    <h3>* Color Property:-</b> Use to set the color of forground</h3>
+    <ul>
+        <li><b>First enter selector name supose for example (h1)</b></li>
+        <li>
+            h1 { color : Orange; <br>color : white;<br> color : green; }
+
+        </li>
+    </ul>
+    <h3><b>Background color property:-</b></h3>
+    <p><b>Used to set the color of background</b></p>
+    <b>For example</b>
+    <ul>
+        <li>
+            Background -color:Red;
+        </li>
+        <li>
+            background - color:green;
+        </li>
+    </ul>
+    <h3>Color system:-</h3>
+    <ul>
+        <li>*RGB (RED,GREEN,BLUE)</li>
+        <br>
+        <li>color:rgb (255,0,0); Red</li>
+        <li>color:rgb (0,255,0); Green</li>
+        <li>color:rgb (0,0,255); Blue</li>
+        <br>
+        <li><b>*HEX (Hexadecimal)</b></li>
+        <li>color:#ff0000; Red</li>
+        <li>color:#00ff00; Green</li>
+        <li>color:#0000ff; Blue</li>
+    </ul>
+    <h3>Selector:-</h3>
+    <ul>
+        <li>Universal selector = * {}</li>
+        <li>Class selector = .Myclaass {}</li>
+        <li>Element Selector = h1 {}</li>
+        <li>Id selector = # My id {}</li>
+    </ul>
+    <h3>Text Properties</h3>
+    <ol>
+        <li><b>Text-align</b></li>
+        Text-Align: Left / Right / Center
+        <li><b>Text-Decoration</b></li>
+        Text-Decoration: Underline / Overline / Linethrough
+        <li><b>Font-Weight</b></li>
+        Font-Weight: Normal / Bold /Bolder /Lighter <br> Font-Weight: 100-900
+        <li><b>Font-Family</b></li>
+        Font-Family: Arial / Roboto
+        <li><b>Line-hight</b></li>
+        Line-hight: 2px Line-hight: 3 Line-hight: Normal
+        <li><b>Text-Transform</b></li>
+        Text-transform: Uppercase / Lowercase / Capitalize / None
+    </ol>
+    <h3>Units In CSS</h3>
+    <p><b>Pixels (px)</b></p>
+    96px = 1 inch <br> Font-size: 2px; (Text-size)
+    <h3><b>Box Model In CSS</b></h3>
+    <ol>
+        <b><li>Height</li></b>
+        <b><li>Width</li></b>
+        <b><li>Border</li></b>
+        <b><li>Padding</li></b>
+        <b><li>Margin</li></b>
+    </ol>
+    <ol>
+        <li>Height:- By Defult set the Content area Height of the Element</li>
+        Div{ height: 50px; }
+        <br>
+        <br>
+        <li>Width:- By defult it set the content area Width of the Elment</li>
+        Div{ width:50px; }
+        <br>
+        <br>
+        <li>Border:- Used to set an Elements Border</li>
+        <br> Border- width: 2px;<br> Border- style: solid / dotted / dashed <br>Border- color: black;
+        <b>In single line it used to- div{ Border: 2px Solid Black;}</b>
+        <br>Border:- Used to around the corners of an Element out border edge
+        <br>border-radius : 10px;
+        <br>border-radius : 50%;
+        <br>
+        <br>
+        <li>Padding:-</li>
+        <br><b>* Padding - Left</b>
+        <br><b>* Padding - Right</b>
+        <br><b>* Padding - top</b>
+        <br><b>* Padding - Bottom</b>
+        <br><b>* Padding:- Shorthand</b>
+        <br>Padding: 50px;
+        <br>padding: 1px 2px 3px 4px;
+        <br>Top-> Right-> Bottom-> Left (Clock wise)
+        <br>
+        <br>
+        <li>Margin:-</li>
+        <br><b>* Margin- Right</b>
+        <br><b>* Margin- Left</b>
+        <br><b>* Margin- Top</b>
+        <br><b>* Margin- Bottom</b>
+        <br><b>Margin:- Shorthand</b>
+        <br>Margin: 50px;
+        <br>Margin: 1px 2px 3px 4px;
+        <br>Top-> Right-> Bottom-> Left (Clock wise)
+
+    </ol>
+    <h3><b>Display Property</b></h3>
+    <ol>
+        <li>Inline</li>
+        <li>Block</li>
+        <li>Inline Blok</li>
+        <li>None</li>
+    </ol>
+    <ul>
+        <li>Inline :- Take only the space Requared by the element.(No margin / No Padding ) </li>
+        <li>blok:- Take full sapce avalible in width.</li>
+        <li>Inline Blok:- Similar with inline But we can set Margin & padding</li>
+        <li>None:- To remove element from document flow</li>
+    </ul>
+    <p><b>Visibility:-</b></p>
+    <b>Visibility : Hidden;</b>
+    <p>Note - When visibility set to none , Spece for the element is reserved. But for the Display set to none - No space is reserved for blocked for the element.
+    </p>
+    <h3><b>Alpha Chanel:-</b></h3>
+    <ul>
+        <li>Opacity (0 to 1)</li>
+        <li>RGBA</li>
+        <b>Color : rgba (255,0,0,0.5);</b>
+        <br><b>Color : rgba (255,0,0,1);</b>
+    </ul>
+    <h3><b>Units in CSS</b></h3>
+    <b>Relative:-</b>
+    <ol>
+        <li>percentage (%)</li>
+        <li>EM</li>
+        <li>Rem (Root Rem)</li>
+        <ul>
+            <li>Percentage (%):-IT is Often used to define a size as relative to an elements parent object.</li>
+            <br> For Example :- Width : 30%;<br>Margine-Left : 50%;
+            <li>EM:- Font size of the parent, in the case of typographycal properties like font-size ,and font size of the element it self in the case of other properties like width.</li>
+            <br>
+            <li>Rem (Root Em):- Font size of the root element.</li>
+            <br> Other:- vh : relative to 1% view port height
+            <br> vw : relative to 1% view port width
+        </ul>
+    </ol>
+    <h3><b>Position :-</b></h3>
+    <b>The position CSS property sets "how an element is positioned" in a document </b>
+    <ol>
+        <b>*Positions</b>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+        <li>Sticky</li>
+        <ul>
+            <li>Static- defult position (The Top,Right,Bottom,Left and Z- index Properties have no effects)</li>
+            <li>Relative- element is relative to it self. (The Top,Right,Bottom,Left and Z-index will work)</li>
+            <li>Absolute- positioned relative to its closest position ancestor.(remove from the flow)</li>
+            <li>Fixed- position relative to the browser.(remove from flow)</li>
+            <li>Sticky- position bassed on users scroll position</li>
+        </ul>
+    </ol>
+    <p><b>Z-index- It deside to the 'stack level' of element overlapping element with a larg Z-index cover those with a smaller one. </b></p>
+    <ul>
+        <li>Z-index : auto (0)
+        </li>
+        <li>Z-index : 1/2/3....</li>
+        <li>Z-index : -1/-2/-3....</li>
+    </ul>
+    <h3><b>Background Image</b></h3>
+    <b>Used to set an Image as background</b>
+    <br> (Background-image:url ("link");)
+    <h3><b>Background Size</b></h3>
+    <b>Background-Size: cover/contain/auto   (most use cover)</b>
+    <h3><b>Flex Box</b></h3>
+    <ol>
+        <li><b>Display: block; - It take full width a box</b></li>
+        <li><b>Display: flex; - It take minimum width even a box</b></li>
+    </ol>
+    <ul>
+        <li>Flexbox- fexible box layout. Its is a one-demencial layout method for arraing item in row and coloumns</li>
+    </ul>
+    <h3><b>The Flexbox-Model :-</b></h3>
+    <img src="Flex-box model.jpg" alt="Flexbox-Model">
+    <h3><b>Flex-box Direction:-</b></h3>
+    <b>It sets how flex item are placed in the flex container, along which axis and Direction- </b>
+    <ul>
+        <li>Flex-direction: row; (defult)</li>
+        <li>Flex-direction: row-reverse;</li>
+        <li>Flex-direction: coloumn;</li>
+        <li>Flex-direction: colounm-reverse;</li>
+    </ul>
+    <h3><b>Justify content</b></h3>
+    <ul>
+        <li>Justify-content : flex-start;</li>
+        <li>Justify-content : flex-end;</li>
+        <li>Justify-content : Center;</li>
+        <li>Justify-content : Space-between;</li>
+        <li>Justify-content : Space-arround;</li>
+    </ul>
+    <h3><b>Flex Align Item (It take space maintain every box)</b></h3>
+    <ul>
+        <li>Align-item : flex-start;</li>
+        <li>Align-item : flex-end;</li>
+        <li>Align-item : center;</li>
+        <li>Align-item : stretch;</li>
+        <li>Align-item : baseline;</li>
+    </ul>
+    <h3><b>Align self</b></h3>
+    <ul>
+        <li>Align-self : flex-start;</li>
+        <li>Align-self : flex-end;</li>
+        <li>Align-self : center;</li>
+        <li>Align-self : stretch;</li>
+        <li>Align-self : baseline;</li>
+    </ul>
+    <h3><b>Align content (No space requared any boxes)</b></h3>
+    <ul>
+        <li>Align-content : flex-start;</li>
+        <li>Align-content : flex-end;</li>
+        <li>Align-content : center;
+        </li>
+    </ul>
+    <h3><b>Flex-Wrap : No-wrap;</b></h3>
+    <div class="flex"> Flex-box Container
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        <div class="box3">Box3</div>
+    </div>
+    <h2>Add many color in a line- Used to :-( Background : linear-gradient (to left, orange white green );)</h2>
+    <h3><b>Media Queries:-</b></h3>
+    <p><b>Help creat a responsive website <br>
+    @media (width : 600px) { <br>
+    div { <br>
+    background-color : red;} <br>
+    }</b></p>
+    <p><b>
+        @media (min-width : 600px){ <br>
+
+       div { <br> background-color : red;
+
+       }  <br> }
+    </b></p>
+    <p><b>
+        @media (min-width : 200px ) and (max-width : 300px) <br>{div {backgrond-color : red;} <br>}
+    </b></p>
+    <h3><b>Transition:-</b></h3>
+    <p><b>Transition enable you to define the transition between two states of an element.</b></p>
+    <ul>
+        <li>Transition-property : Property you want to transition (font-size , width etc..)</li>
+        <li>Transition-duration : 2s/4ms...</li>
+        <li>Transition-timing-function : ease-in/ease-out/line/steps...</li>
+        <li>transition-delay : 2s/4ms....</li>
+    </ul>
+    <h4><b>Transition shorthand:->
+        <br>Property name / duration / timing-function / transition-delay
+        <br>transition : Font-size 2s ease-in-out 0.2s;
+    </b></h4>
+    <h3><b>CSS Transform:-</b></h3>
+    <p><b>Used to apply 2D & 3D transformations to an element</b></p>
+    <ul>
+        <li><b>Rotate <br> transform : rotate (45 deg);</b></li>
+        <br>
+        <li><b>Scale <br> transform : scale (2); <br> transform : scale (0.5); <br> transform : scale (1,2); <br> <br> transform : scale x(0.5); <br> transform : scale y (0.5);</b></li>
+    </ul>
+    <ul>
+        <li><b>Translate <br> transform : translate (20px); <br> transform : translate (20px,50px); <br> <br> transform : translate x (20px); <br> transform : translate y (20px);</b></li>
+    </ul>
+    <h3><b>Skew</b></h3>
+    <ul>
+        <li><b>Transform : skew (30 deg);</b></li>
+    </ul>
+    <h3><b>
+            Animation:-
+        </b></h3>
+    <p><b>To animate css elements</b></p>
+    <p><b>@keyframe my name { <br> from { font-size : 20px;} <br> to { font-size : 40px;} <br> }</b></p>
+    <h3><b>Animataion Properties:-</b></h3>
+    <ul>
+        <li>animation-name</li>
+        <li>animation-duration</li>
+        <li>animation-timing-function</li>
+        <li>animation-delay</li>
+        <li>animation-iteration-count</li>
+        <li>animation-direction</li>
+    </ul>
+    <h3><b>Animation Name:-</b></h3>
+    <p><b>@keyframe my name { <br> from { font-size : 20px;} <br> to { font-size : 40px;} <br> }</b></p>
+    <h3><b>Animation Duration:-</b></h3>
+    <p><b>animation-duration : 2s;</b></p>
+    <h3><b>Animation Timing Function:-</b></h3>
+    <h4><b>Animation Shorthand:- <br> animation : my name 2s linear 3s infinite normal;</b></h4>
+    <h3><b>% in Animation:-</b></h3>
+    <p><b>@keyfarme my name { <br> 0% {font-size : 20px;} <br> 50% { font-size : 30px;} <br> 100% { font-size : 40px;} <br> }</b></p>
+    <h2><b>A mini Project By using CSS Animataion</b></h2>
+    <div class="body">
+
+        <div class="container">
+            <div class="sun">Create by Biswa</div>
+            <div class="earth">
+                <div class="moon"></div>
+            </div>
+        </div>
+    </div>
+    <div class="au"><audio controls loop mute>
+        <source src="WhatsApp Audio 2024-10-19 at 13.18.05_2cf0e59b.mp3">
+    </audio></div>
+    <h2>Now Starting Chapter - 3 JavaScript</h2>
+    <h3><b>What is JavaScript -: JavaScript is used to add interactivity to web pages,such as responding to user input and changing the content layout. It can also be used to create complex features, like a  animated graphic,intractive map, and scroling video jokeboxes. <br>
+    <br>How it used :- (Input(code)--Compile--Output) JavaScript used on both the clint side and the server side.Its often used in conjuction with HTML & CSS, Which are used to struture and style web pages. </b></h3>
+    <h4><b>Content For JS :-</b></h4>
+    <ol>
+        <li>Variable and Data types</li>
+        <li>Oparater & Conditional Statement</li>
+        <li>Loops & Strings</li>
+        <li>Arrays</li>
+        <li>Functions & Methods</li>
+        <li>Dom</li>
+        <li>Events</li>
+        <li>stone, Paper , Scissors</li>
+        <li>Classes & Objects</li>
+        <li>Call backs, Promises & async await</li>
+        <li>API calls</li>
+    </ol>
+    <h3><b> Console.log is used to log (print) a message to the console.   </b></h3>
+    <h4><b>console.log(Our first JS code)</b></h4>
+    <h3><b>Variables:- 3 Type of variables</b></h3>
+    <ol>
+        <li>Var - Global Scope variable</li>
+        <li>Let - Block Scope variable</li>
+        <li>Const - Block scope variable</li>
+    </ol>
+    <h3><b>What is variable:- Variable Like a kitchen Boxes name (Dabba). <br>
+    <br>Which material is under the boxes that is called Data.</b></h3>
+    <h3><b>Object Like a Kitchen Thats Under Stored many Variable.</b></h3>
+    <b>For Example:-</b>
+    <div class="Kitchen">Kitchen (Object)
+        <div class="Boxs1">Haldi powder (Data)</div>
+        <div class="Boxs2">Mirchi powder (Data)</div>
+        <div class="Boxs3">Dhania powder (Data)</div>
+    </div>
+    <h3><b>CONTENT OF JAVASCRIPT</b></h3>
+    <ul>
+        <b>1</b>
+        <li>Variables:- <br>* Declare with Let , Const and Var <br>* Let and Const are block-Scoped Var is function scoped <br>* Const declared a constant Variable</li>
+        <br>
+        <b>2</b>
+        <li>Datatypes:- <br>* Number : 42 <br>* String : 'Hello' <br>* Boolean : True or False <br>* Null : Null <br>* Undefined ; Undefined <br>* Object : {Key : value} <br>* Array : [1,2,3,]</li>
+
+    </ul>
+    <b>3</b>
+    <h3>Operators</h3>
+    <h3><b>Arithmetic operators (+,-,*,/)</b></h3>
+    <p>
+        <b>let a = 5;</b>
+        <br><b>let b = 2;</b>
+        <br>
+        <br>
+        <b>You can try it practically</b>
+        <br><b>console.log("a = ",a, " & b = " , b); </b>
+        <br><b>console.log("a + b = ", a + b);</b>
+        <br><b>console.log("a - b = ", a - b);</b>
+        <br><b>console.log("a * b = ", a * b);</b>
+        <br><b>console.log("a / b = ", a / b);</b>
+    </p>
+    <ul>
+        <li><b>Comparison : ===, !==, >, <, >=, <=</b></li>
+        <li><b>logical : && , || , ! </b>
+        </li>
+        <li><b>Assignment : = , += , -= , *= , /= , %=</b></li>
+    </ul>
+    <b>4</b>
+    <h3>Control Flow</h3>
+    <ul>
+        <li><b>Conditional Statements : if , else , switch</b></li>
+        <li><b>Loops : for , while , do-while</b></li>
+        <li><b>Functions : function name (parameters) {code}</b></li>
+    </ul>
+    <b>5</b>
+    <h3>Functions</h3>
+    <ul>
+        <li><b>Declare with function keyword</b></li>
+        <li><b>Can take arguments and return values </b></li>
+        <li><b>Can be anonymous or named</b></li>
+    </ul>
+    <b>6</b>
+    <h3>Arrays</h3>
+    <ul>
+        <li><b>Declare with  [ ]</b></li>
+        <li><b>Can store multiple data types</b></li>
+        <li><b>Method : Push , pop , shift ,unshift , splice , slice , join</b></li>
+    </ul>
+    <b>7</b>
+    <h3>Objects</h3>
+    <ul>
+        <li><b>Declare with { }</b></li>
+        <li><b>Key-values pairs : key : value</b></li>
+        <li><b>Methods : Object.Keys , Object.Values , Object.Entries</b></li>
+    </ul>
+    <b>8</b>
+    <h3>Dom</h3>
+    <li><b>Document Object Model</b></li>
+    <li><b>Repeats HTML Document as a tree of objects</b></li>
+    <li><b>Methods : Document.queryselector , Document.getelement by id , Element.inner HTML</b></li>
+    <b>9</b>
+    <h3>Events</h3>
+    <ul>
+        <li><b>User interactions : Click , Hover , Keypress</b></li>
+        <li><b>Event listeners : Element.Addevent listener</b></li>
+        <li><b>Event handlers : Function (event) {code}</b></li>
+    </ul>
+    <h3><b>Variable & Datatype</b></h3>
+    <ul>
+        <li>Variables are containers for data</li>
+        <li><b>Variable Rules</b></li>
+        <li>Variable names are case sensitive; “a” & “A” is different.</li>
+        <li>Only letters, digits, underscore( _ ) and $ is allowed. (not even space)</li>
+        <li>Only a letter, underscore( _ ) or $ should be 1st character.</li>
+        <li>Reserved words cannot be variable names.</li>
+    </ul>
+    <h3><b>Operators in JS--- Used to perform some operation on data</b></h3>
+    <ul>
+        <li><b> Arithmetic Operator</b></li>
+        <li>Modulus (%)</li>
+        <li> Exponentiation (**)</li>
+        <li> Increment (++)</li>
+        <li>Decrement (--)</li>
+        <li>Division (/)</li>
+    </ul>
+    <h3>Control Flow</h3>
+    <ul>
+        <li><b>*Loops in JS</b></li>
+        <p><b>Loops are used to exicuted a price of code again & again</b></p>
+    </ul>
+    <ol>
+        <li>For Loops- <br> for (let i = 1; i
+            <=5; i++){ <br> console.log("its Biswa"); <br>}</li>
+    </ol>
+    <ul>
+        <li>(Let i =1) = Inisilization</li>
+        <li>(i
+            <=5)=Stoping Condition</li>
+                <li>(i++) =Updation</li>
+                <b>*Infinite Loops - A Loops are never end.</b>
+    </ul>
+
+    <ol>
+        <li>While Loops- <br> let i = 1; <br> while (i
+            <=5 ) { <br> console.log("its Biswa"); <br> i++; <br>}</li>
+    </ol>
+
+    <ul>
+        <li>Do While Loops- <br> let i = 1; <br> do { <br> console.log("its Biswa"); <br> i++; <br>} while (i
+            <=5 );</li>
+        </li>
+
+        <li>For of Loops- <br> let arr = [1, 2, 3, 4, 5]; <br> for (let item of arr) { <br> console.log(item); <br>}</li>
+
+    </ul>
+    <li>For in Loops- <br> let obj = { a: 1, b: 2, c: 3 }; <br> for (let key in obj) { <br> console.log(key, obj[key]); <br>}</li>
+    </ol>
+
+    <h3><b>Strings in JS</b></h3>
+    <ul>
+        <li><b>Declare with quotes</b></li>
+        <li><b>Can be single or double quotes</b></li>
+        <li><b>Escape characters : \n , \t , \\, \'</b></li>
+    </ul>
+    <h3><b>String Methods</b></h3>
+    <ul>
+        <li><b>Length : string.length</b></li>
+        <li><b>Indexing : string[index]</b></li>
+        <li><b>Substring : string.substring(start, end)</b></li>
+        <li><b>Replace : string.replace(old, new)</b></li>
+        <li><b>Split : string.split(separator)</b></li>
+        <li><b>Trim : string.trim()</b></li>
+    </ul>
+    <h3><b>Arrays in JS</b></h3>
+    <ul>
+        <li><b>Declare with  [ ]</b></li>
+        <li><b>Can store multiple data types</b></li>
+        <li><b>Method : Push , pop , shift ,unshift , splice , slice , join</b></li>
+    </ul>
+    <h3><b>Array Methods</b></h3>
+    <ul>
+        <li><b>Push : Adds an element to the end</b></li>
+        <li><b>Pop : Removes the last element</b></li>
+        <li><b>Shift : Removes the first element</b></li>
+        <li><b>Unshift : Adds an element to the beginning</b></li>
+        <li><b>Splice : Adds/Removes elements from a specific index</b></li>
+        <li><b>Slice : Returns a portion of the array</b></li>
+        <li><b>Join : Combines elements into a string</b></li>
+    </ul>
+    <h3><b>Functions in JS</b></h3>
+    <ul>
+        <li><b>Declare with function keyword</b></li>
+        <li><b>Can take arguments and return values </b></li>
+        <li><b>Can be anonymous or named</b></li>
+    </ul>
+    <h3><b>Function Declaration</b></h3>
+    <ul>
+        <li><b>function functionName(parameters) { code }</b></li>
+        <li><b>Example: function add(a, b) { return a + b; }</b></li>
+    </ul>
+    <h3><b>Function Expression</b></h3>
+    <ul>
+        <li><b>const functionName = function(parameters) { code }</b></li>
+        <li><b>Example: const add = function(a, b) { return a + b; }</b></li>
+    </ul>
+    <h3><b>Arrow Functions</b></h3>
+    <ul>
+        <li><b>const functionName = (parameters) => { code }</b></li>
+        <li><b>Example: const add = (a, b) => a + b;</b></li>
+    </ul>
+    <h3><b>Document Object Model (DOM)</b></h3>
+    <ul>
+        <li><b>Represents the structure of an HTML document</b></li>
+        <li><b>Allows manipulation of HTML elements</b></li>
+        <li><b>Methods: document.querySelector, document.getElementById, element.innerHTML</b></li>
+    </ul>
+    <h3><b>DOM Manipulation</b></h3>
+    <ul>
+        <li><b>Accessing Elements: getElementById, querySelector</b></li>
+        <li><b>Changing Content: innerHTML, textContent</b></li>
+        <li><b>Changing Styles: element.style.property</b></li>
+        <li><b>Adding/Removing Classes: classList.add, classList.remove</b></li>
+        <li><b>Event Listeners: element.addEventListener(type, function)</b></li>
+    </ul>
+    <h3><b>Events in JS</b></h3>
+    <ul>
+        <li><b>User interactions: Click, Hover, Keypress</b></li>
+        <li><b>Event listeners: element.addEventListener(type, function)</b></li>
+        <li><b>Event handlers: function(event) { code }</b></li>
+    </ul>
+    <h3><b>Event Handling</b></h3>
+    <ul>
+        <li><b>Adding Event Listeners: element.addEventListener('click', function)</b></li>
+        <li><b>Removing Event Listeners: element.removeEventListener('click', function)</b></li>
+        <li><b>Event Object: event.type, event.target</b></li>
+        <li><b>Prevent Default Behavior: event.preventDefault()</b></li>
+        <li><b>Stop Propagation: event.stopPropagation()</b></li>
+    </ul>
+    <h3><b>Stone, Paper, Scissors Game</b></h3>
+    <ul>
+        <li><b>Game Logic: Randomly generate computer choice</b></li>
+        <li><b>Compare User and Computer Choices</b></li>
+        <li><b>Display Result: Win, Lose, Draw</b></li>
+        <li><b>Example Code:</b></li>
+    </ul>
+    \end{code}
+    <pre>
+        <code>
+        const choices = ['stone', 'paper', 'scissors'];
+        const userChoice = prompt('Enter stone, paper, or scissors:');
+        const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+        if (userChoice === computerChoice) {
+            console.log('It\'s a draw!');
+        } else if (
+            (userChoice === 'stone' && computerChoice === 'scissors') ||
+            (userChoice === 'paper' && computerChoice === 'stone') ||
+            (userChoice === 'scissors' && computerChoice === 'paper')
+        ) {
+            console.log('You win!');
+        } else {
+            console.log('You lose!');
+        }
+        </code>
+    </pre>
+    <h3><b>Classes and Objects in JS</b></h3>
+    <ul>
+        <li><b>Classes: Blueprint for creating objects</b></li>
+        <li><b>Objects: Instances of classes with properties and methods</b></li>
+        <li><b>Constructor: Special method for initializing objects</b></li>
+        <li><b>Example Code:</b></li>
+    </ul>
+    <pre>
+        <code>
+        class Car {
+            constructor(make, model) {
+                this.make = make;
+                this.model = model;
+            }
+            displayInfo() {
+                console.log(`Car Make: ${this.make}, Model: ${this.model}`);
+            }
+        }
+        const myCar = new Car('Toyota', 'Corolla');
+        myCar.displayInfo();
+        </code>
+    </pre> \end{code} \end{code}
+    </div>
+    <h3><b>Callbacks, Promises, and Async/Await</b></h3>
+    <ul>
+        <li><b>Callbacks: Functions passed as arguments</b></li>
+        <li><b>Promises: Represent the eventual completion (or failure) of an asynchronous operation</b></li>
+        <li><b>Async/Await: Syntactic sugar for working with Promises</b></li>
+    </ul>
+    <h3><b>API Calls in JS</b></h3>
+    <ul>
+        <li><b>Fetch API: Used to make HTTP requests</b></li>
+        <li><b>Example Code:</b></li>
+    </ul>
+    <pre>
+        <code>
+        fetch('https://api.example.com/data')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+        </code>
+    </pre>
+    <h3><b>Conclusion</b></h3>
+    <p><b>JavaScript is a powerful language for web development, enabling dynamic and interactive web applications. By mastering its concepts, you can create engaging user experiences and build complex functionalities.</b></p>
+    <h3><b>Thank you for reading this article. I hope you found it informative and helpful in your journey to learn JavaScript. If you have any questions or feedback, feel free to reach out.</b></h3>
+    <h3><b>Happy coding!</b></h3>
+    <select name="Ashish" id="Biswa"></select>
+
+
+
+
+
+    <!-- <!DOCTYPE html>
+<html lang="en">    
+    \end{code}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and JavaScript Guide</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <h1>CSS and JavaScript Guide</h1>
+    <p>This guide provides an overview of essential concepts in CSS and JavaScript for web development.</p> -->
+
+</body>
+
+</html>

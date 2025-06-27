@@ -1,0 +1,213 @@
+p {
+    color: rgb(8, 123, 10);
+}
+
+.h {
+    height: 40px;
+    background: linear-gradient(to left, orange, white, green);
+    text-align: center;
+}
+
+h4 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(211, 10, 10);
+}
+
+h3 {
+    color: #36013f;
+}
+
+.flex {
+    display: flex;
+    height: 200px;
+    width: 500px;
+    background-color: wheat;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    font-size: 10px;
+    width: 50em;
+    height: 50em;
+    position: relative;
+}
+
+.sun {
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 20em;
+    height: 20em;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 3em white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.earth,
+.moon {
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
+
+.earth {
+    top: 5em;
+    left: 5em;
+    width: 40em;
+    height: 40em;
+    animation: orbit 20.5s linear infinite;
+}
+
+.moon {
+    top: 0;
+    right: 0;
+    width: 10em;
+    height: 10em;
+    animation: orbit 2.7s linear infinite;
+}
+
+.earth::before,
+.moon::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+
+.earth::before {
+    top: 2.8em;
+    right: 2.8em;
+    width: 5em;
+    height: 5em;
+    background-color: aqua;
+}
+
+.moon::before {
+    top: 0.8em;
+    right: 0.2em;
+    width: 2em;
+    height: 2em;
+    background-color: silver;
+}
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.au {
+    height: 60px;
+    border: 5px solid black;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Kitchen {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(112, 176, 232);
+    color: black;
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+}
+
+.Boxs1 {
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+.Boxs2 {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+.Boxs3 {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 70px;
+}
